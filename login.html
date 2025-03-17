@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root&Rise</title>`
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" media="screen">
+
+    <!-- custom CSS file link -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo"><i class="fa-solid fa-leaf" style="color: #25b052;"></i>  Root&Rise</a>
+    <nav class="navbar">
+      
+              <a href="#home">Shop plants</a>  
+              <a href="#features">Catagories</a>  
+              <a href="#products">Plant Care</a>  
+              <a href="#categories">About Us</a>   
+        
+    </nav>
+
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+      <div class="fa-solid fa-headset" id="headset-btn"></div>
+  </div>
+
+  <div class="headset-popup">
+    <div class="headset-content">
+        <h3>Plant Care Assistant</h3>
+        <div class="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" placeholder="Ask about plants...">
+            <button>Send</button>
+        </div>
+    </div>
+</div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="photos/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="photos/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="photos/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total">total : $19.69/-</div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <p>Become a Nursery Partner <a href="#">register now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+</header>
+
+<main>
+    <div class="sign">
+        <form action="" class="signup-form" method="post">
+            <h1>Sign Up</h1>
+            <h4>First name</h4>
+            <input type="text" class="box">
+            <h4>Last Name</h4>
+            <input type="Last" class="box">
+            <input type="email" placeholder="user@domain.com" class="box"autocapitalize="off" id="email">
+            <input type="password" placeholder="Your Password" class="box">
+            <input type="password" placeholder="Confirm Password" class="box">
+            <div class="agree-terms">
+                <input type="radio"><p>I agree to the Terms of Service and Privacy Policy</p>
+            </div>
+            <button class="btn" type="submit">Sign Up</button>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <section>    
+        <div id="containerFooter">
+            
+            <div id="webFooter">
+                <h2>Root&Rise</h2>
+                <br>
+                <p>Your one-stop destination for beautiful plants and expert care advice.</p>
+            </div>
+            <div id="webFooter">
+                <h2>Shop</h2>
+                <br>
+                <p> All Plants </p>
+                <p> Categories </p>
+                <p> On Sale </p>
+                <p> New Arrivals </p>
+            </div>
+            <div id="webFooter">
+                <h2> Care </h2>
+                <br>
+                <p> Care Assistant </p>
+                <p> Plant Guides</p>
+                <p> Plant Identification</p>
+                <p> Care Schedule</p>
+            </div>
+            <div id="webFooter">
+                <h2> Contact </h2>
+                <br>
+                <p> Email: hello@planthaven.com</p>
+                <p> Phone: (555) 123-4567 </p>
+                <p> Address: 123 Green St, Plant City</p>
+            </div>
+        </div>
+        <div id="credit"><a>EIPR Project </a> &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp <a> Root&Rise</a></div>
+    </section>
+
+</footer>
+
+
+
+    <script src="login.js"></script>
+</body>
+</html>
